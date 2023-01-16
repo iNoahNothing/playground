@@ -8,8 +8,6 @@ on:
 
 jobs:
   required-labels:
-    runs-on:
-      - self-hosted
     steps:
       - uses: mheap/github-action-required-labels@v3
         with:
